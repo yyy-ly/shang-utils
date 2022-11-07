@@ -1,8 +1,3 @@
-import Format from "./src/format";
-import Validate from "./src/validate";
-
-export { Format, Validate };
-
 // b. format.js 格式化文件
 const Validate = {
   /**
@@ -24,10 +19,6 @@ const Validate = {
   emailCheck: (value) =>
     /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value),
 };
-
-export default Validate;
-
-
 // c. validate.js 校验文件
 // 解决toFixed保留小数的问题
 const formatToFixed = (money, decimals = 2) => {
@@ -45,4 +36,4 @@ const Format = {
       .replace(/^/, `${symbol}`),
 };
 
-export default Format;
+export { Format, Validate, formatToFixed };
