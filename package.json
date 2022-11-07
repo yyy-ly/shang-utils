@@ -1,0 +1,22 @@
+{
+  "name": "shang-utils",
+  "version": "1.0.0",
+  "author": "yyy-ly",
+  "description": "common toolkit", 
+  "keywords": ["utils", "format", "money", "phone"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yyy-ly/shang-utils"
+  },
+  "license": "ISC",
+  "homepage": "https://your-package.org",
+  "bugs": "https://github.com/yyy-ly/shang-utils/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
